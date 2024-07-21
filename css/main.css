@@ -1,0 +1,70 @@
+html {
+  background-color: #212d55;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 66vh;
+  color: #EBF4F6;
+}
+
+.icon {
+  font-size: 48px;
+  margin: 0 16px;
+  color: #c76227;
+}
+
+.icon:hover {
+  color: #c7a227;
+  transform: scale(1.1);
+  transition: color 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+#header,
+#subheader {
+  margin-bottom: 1em;
+}
+
+#headshot {
+  border-radius: 100%;
+  border: #EBF4F6 solid 15px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+h1,
+h2,
+h4,
+h6 {
+  margin: 0.2em;
+}
+
+h1 {
+
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1em;
+}

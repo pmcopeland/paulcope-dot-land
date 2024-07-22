@@ -6,11 +6,10 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
-  height: 66vh;
   color: #EBF4F6;
+  margin: 10% 0 0 0;
 }
 
 .icon {
@@ -49,7 +48,7 @@ h1,
 h2,
 h4,
 h6 {
-  margin: 0.2em;
+  margin: 10px;
 }
 
 h1 {
